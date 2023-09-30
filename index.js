@@ -1,4 +1,4 @@
-// Lior Poterman: 315368035, Abo Rabia Rami: 314820135 
+
  
 const reviewBox = document.createElement("div");
 const reviewName = document.createElement("h3");
