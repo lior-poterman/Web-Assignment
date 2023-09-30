@@ -1,0 +1,83 @@
+/* Lior Poterman: 315368035, Abo Rabia Rami: 314820135 */
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;600&display=swap");
+
+html,
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+body {
+  padding: 0 10%;
+}
+
+.main-content {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 85px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 50px;
+  align-self: flex-end;
+}
+h3 {
+  font-weight: 600;
+  font-size: 30px;
+  align-self: flex-end;
+}
+p {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.home-link {
+  font-size: 80px;
+  text-decoration: none;
+  align-self: center;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+.home-link:focus {
+  color: blueviolet;
+}
+
+.toggle-review {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+  align-self: center;
+  margin: 5px;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  left: 30%;
+  font-weight: 600;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
